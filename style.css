@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Rubik:ital,wght@0,600;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding:0 ;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+}
+.books{
+    max-width: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.crafts,
+.games{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.section-container{
+    flex-direction: column;
+    padding: 5%;
+}
+
+.space-beetween{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.space-evenly{
+    justify-content: space-evenly;
+}
+
+nav{
+height: 50px;
+width: 100%;
+}
+
+
+nav>div{
+    padding: 0% 5%;
+}
+
+nav>img{
+    height: 30px;
+}
+
+#cart{
+    font-weight: bold;
+    align-items: center;
+}
+
+header{
+    height: 500px;
+    width: 100%;
+    background-image: url( "http://i1.faceprep.in/prograd-junior/kw-background.png");
+    background-size: 100% 100%;
+    color: white;
+}
+
+.header-text{
+    flex-direction: column;
+    max-width: 20%;
+    max-height: 100%;
+    padding: 4% 5%;
+}
+
+
+header h1{
+    font-size: 7vh;
+}
+
+header h5{
+    font-size: 20px;
+    margin-top: 20%;
+}
+
+.section{
+    margin: 4% 0%;
+}
+
+.button{
+    cursor: pointer;
+    background-color: #6095ff;
+    color: white;
+    padding: 7px;
+    border-radius: 4px;
+}
+
+.boy img{
+    width: 20px;
+    padding-left:5px ;
+}
+
+.boy{
+    margin-top: 15px;
+}
+
+#details{
+            flex-direction: column;
+            text-align: right;
+}
+
+h1,
+h2{
+    font-family: 'Playfair Display',sans-serif;
+    font-weight: bold;
+}
+
+h6{
+    font-size: 17px;
+}
+
+.boy p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h3,
+h2{
+    margin-bottom: 10px;
+}
